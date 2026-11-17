@@ -1,0 +1,89 @@
+{
+  "retrieved": "2026-11-17",
+  "records": [
+    {
+      "id": "ias-pink-lemonade",
+      "cultivar": "Pink Lemonade",
+      "seed_parent": "SKG Silver",
+      "pollen_parent": "SKG Grey",
+      "parentage_note": "Registry base-species field lists crystallinum and magnificum. Do not convert SKG parents into pure-species parents.",
+      "direction": "explicit seed and pollen fields",
+      "source_url": "https://www.aroidcultivars.org/aroid-cultivars/anthurium/anth.-pink-lemonade",
+      "evidence_type": "registrar_record",
+      "outcome": "reported hybrid cultivar; propagated",
+      "accepted": true,
+      "established": false,
+      "year": 2011
+    },
+    {
+      "id": "steves-forgetii-crystallinum",
+      "parents": [
+        "Anthurium forgetii",
+        "Anthurium crystallinum"
+      ],
+      "seed_parent": null,
+      "pollen_parent": null,
+      "direction": "label order only; explicit seed/pollen roles unverified",
+      "source_url": "https://stevesleaves.com/collections/aroids/products/anthurium-forgetii-x-crystallinum",
+      "evidence_type": "nursery_first_party_report",
+      "outcome": "nursery explicitly reports seed-grown plants",
+      "viability_level": "reported grown seedlings",
+      "fertility": "unreported",
+      "year": null
+    },
+    {
+      "id": "docblock-black-widow-michelle",
+      "parents": [
+        "Anthurium 'Black Widow'",
+        "Anthurium 'Michelle'"
+      ],
+      "seed_parent": null,
+      "pollen_parent": null,
+      "direction": "not explicitly stated",
+      "source_url": "https://nurturingnature.com/anthurium-faq/",
+      "evidence_type": "breeder_first_party_report",
+      "outcome": "breeder reports 2020 cross and grown seedlings released in early 2022",
+      "viability_level": "reported grown seedlings",
+      "fertility": "unreported",
+      "year": 2020
+    },
+    {
+      "id": "ias-giant-claire",
+      "cultivar": "Giant Claire",
+      "seed_parent": "Anthurium faustomirandae",
+      "pollen_parent": "Anthurium clarinervium",
+      "source_seed_parent_verbatim": "faustinomirandae",
+      "normalization_note": "Seed field spelling differs from correctly spelled base-species field. Preserve raw source.",
+      "direction": "explicit seed and pollen fields",
+      "source_url": "https://www.aroidcultivars.org/aroid-cultivars/anthurium/giant-claire",
+      "evidence_type": "registrar_record",
+      "outcome": "reported propagated hybrid cultivar",
+      "accepted": true,
+      "established": true,
+      "year": 2002
+    },
+    {
+      "id": "ias-mikes-goliath",
+      "cultivar": "Mike's Goliath",
+      "seed_parent": "Anthurium dressleri",
+      "pollen_parent": null,
+      "pollen_parent_candidates": [
+        "Anthurium versicolor",
+        "Anthurium leucostachyum"
+      ],
+      "source_pollen_parent_verbatim": "A. versicolor or leucostachyum",
+      "direction": "seed parent explicit; pollen identity uncertain",
+      "source_url": "https://www.aroidcultivars.org/aroid-cultivars/anthurium/'mike's-goliath'",
+      "evidence_type": "registrar_record",
+      "outcome": "reported propagated hybrid cultivar; uncertain pollen identity",
+      "accepted": true,
+      "established": false,
+      "year": 1981
+    }
+  ],
+  "limitations": [
+    "Nursery and breeder reports are labeled reports, not genetically authenticated pedigrees.",
+    "No blanket reproduction rights established; factual metadata and citations only, no images or prose copied.",
+    "RC is ambiguous trade shorthand; retain exact accession/breeder identifiers; do not map all RC to crystallinum or Zara."
+  ]
+}

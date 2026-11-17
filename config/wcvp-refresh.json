@@ -1,0 +1,11 @@
+{
+  "url": "https://sftp.kew.org/pub/data-repositories/WCVP/wcvp.zip",
+  "robots_url": "https://sftp.kew.org/robots.txt",
+  "license": "CC BY 3.0",
+  "source": "https://doi.org/10.34885/egs6-cp24",
+  "terms_reviewed": true,
+  "terms_note": "Official WCVP bulk distribution, CC BY 3.0. Re-check terms before enabling network refresh; deny if robots cannot be verified.",
+  "max_download_bytes": 150000000,
+  "max_uncompressed_bytes": 1500000000,
+  "minimum_anthurium_records": 1500
+}

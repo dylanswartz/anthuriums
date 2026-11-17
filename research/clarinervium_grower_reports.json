@@ -1,0 +1,44 @@
+{
+  "records": [
+    {
+      "id": "lutz-forgetii-clarinervium-2024",
+      "title": "Anthurium clarinervium × forgetii pollination",
+      "url": "https://lutzbotanicals.com/2024/10/11/anthurium-clarinervium-x-forgetii-pollination/",
+      "published": "2024-10-11",
+      "retrieved": "2026-11-17",
+      "access_level": "Primary grower article inspected; factual paraphrase only",
+      "maternal_label": "Anthurium forgetii",
+      "paternal_label": "Anthurium clarinervium",
+      "maternal_taxon": "Anthurium forgetii",
+      "paternal_taxon": "Anthurium clarinervium",
+      "direction_known": 1,
+      "evidence_type": "First-party grower report · disputed hybridity",
+      "reported_endpoint": "seedling growth",
+      "outcome": "The author reports applying clarinervium pollen to a forgetii inflorescence, harvesting seeds and growing seedlings, while questioning whether these are true hybrids or an anomaly.",
+      "uncertainty": "Narrative documents forgetii as seed parent and clarinervium as applied pollen; the title reverses their order. Intended pollination roles do not confirm hybrid identity. Suspected/unconfirmed hybridity; excluded from successful-cross inference. No reciprocal outcome, genetic verification or fertility established.",
+      "identity_qualified": 0,
+      "graph_eligible": 0,
+      "functional_fertility_verified": false
+    },
+    {
+      "id": "steves-crystallinum-magnificum-clarinervium",
+      "title": "Anthurium (crystallinum × magnificum) × clarinervium",
+      "url": "https://stevesleaves.com/collections/aroids/products/anthurium-crystallinum-magnificum-x-clarinervum",
+      "published": null,
+      "retrieved": "2026-11-17",
+      "access_level": "Primary grower product page inspected; factual paraphrase only",
+      "maternal_label": "Anthurium (crystallinum × magnificum)",
+      "paternal_label": "Anthurium clarinervium",
+      "maternal_taxon": null,
+      "paternal_taxon": "Anthurium clarinervium",
+      "direction_known": 0,
+      "evidence_type": "First-party grower report",
+      "reported_endpoint": "seedling growth",
+      "outcome": "Steve's Leaves describes seedlings from a reported cross between a crystallinum × magnificum hybrid and clarinervium, hybridized in-house by Ryan Wilhelm.",
+      "uncertainty": "Seed/pollen roles are not explicit; display slots and formula/title order do not establish direction. The compound parent remains a single hybrid parent, never separate pure-species cross edges. Genetic parentage and fertility are unverified. The URL spelling clarinervum is preserved verbatim; clarinervium identifies the stated species component only.",
+      "identity_qualified": 0,
+      "graph_eligible": 0,
+      "functional_fertility_verified": false
+    }
+  ]
+}

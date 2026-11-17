@@ -1,0 +1,79 @@
+{
+  "warning": "Sections are source-specific taxonomic hypotheses, not compatibility predictions. Dates/indexed status must remain visible. Do not use historical classifications as current consensus.",
+  "assignments": [
+    {
+      "name": "Anthurium forgetii",
+      "section": "Cardiolonchium",
+      "source_url": "https://www.aroid.org/gallery/gibernau/1979/Chromosome%20numbers%20in%20the%20genus%20Anthurium%20-%20Scheffer%20%26%20Kamemoto%201976.pdf",
+      "year": 1976,
+      "framework": "historical sectional treatment in Sheffer and Kamemoto chromosome study",
+      "confidence": "historical-source-indexed",
+      "current_classification_verified": false
+    },
+    {
+      "name": "Anthurium magnificum",
+      "section": "Cardiolonchium",
+      "source_url": "https://www.aroid.org/gallery/gibernau/1979/Chromosome%20numbers%20in%20the%20genus%20Anthurium%20-%20Scheffer%20%26%20Kamemoto%201976.pdf",
+      "year": 1976,
+      "framework": "historical sectional treatment in Sheffer and Kamemoto chromosome study",
+      "confidence": "historical-source-indexed",
+      "current_classification_verified": false
+    },
+    {
+      "name": "Anthurium regale",
+      "section": "Cardiolonchium",
+      "source_url": "https://www.aroid.org/gallery/gibernau/1979/Chromosome%20numbers%20in%20the%20genus%20Anthurium%20-%20Scheffer%20%26%20Kamemoto%201976.pdf",
+      "year": 1976,
+      "framework": "historical sectional treatment in Sheffer and Kamemoto chromosome study",
+      "confidence": "historical-source-indexed",
+      "current_classification_verified": false
+    },
+    {
+      "name": "Anthurium splendidum",
+      "section": "Cardiolonchium",
+      "source_url": "https://www.aroid.org/gallery/gibernau/1979/Chromosome%20numbers%20in%20the%20genus%20Anthurium%20-%20Scheffer%20%26%20Kamemoto%201976.pdf",
+      "year": 1976,
+      "framework": "historical sectional treatment in Sheffer and Kamemoto chromosome study",
+      "confidence": "historical-source-indexed",
+      "current_classification_verified": false
+    },
+    {
+      "name": "Anthurium warocqueanum",
+      "section": "Cardiolonchium",
+      "source_url": "https://www.aroid.org/gallery/gibernau/1979/Chromosome%20numbers%20in%20the%20genus%20Anthurium%20-%20Scheffer%20%26%20Kamemoto%201976.pdf",
+      "year": 1976,
+      "framework": "historical sectional treatment in Sheffer and Kamemoto chromosome study",
+      "confidence": "historical-source-indexed",
+      "current_classification_verified": false
+    },
+    {
+      "name": "Anthurium crystallinum",
+      "section": "Cardiolonchium",
+      "source_url": "https://www.aroidsociety.org/genera/anthurium/cardiolonchium/crystallinum.php",
+      "year": null,
+      "framework": "IAS species account, undated traditional section",
+      "confidence": "primary-source-indexed",
+      "current_classification_verified": false
+    },
+    {
+      "name": "Anthurium veitchii",
+      "section": "Calomystrium",
+      "source_url": "https://www.aroidsociety.org/TAP/species/anthveitch.php",
+      "year": null,
+      "framework": "IAS species account, undated traditional section",
+      "confidence": "primary-source-indexed",
+      "current_classification_verified": false
+    }
+  ],
+  "unresolved": [
+    {
+      "name": "Anthurium clarinervium",
+      "reason": "Historical Cardiolonchium conflicts with IAS account describing uncertain placement and newer Andiphilum reports; requires modern primary revision before definitive assignment.",
+      "source_url": "https://www.aroidsociety.org/TAP/species/anthclairnerv.php"
+    },
+    {
+      "name": "Anthurium pallidiflorum",
+      "reason": "Conflicting Porphyrochitonium and Leptanthurium reports; leave unverified."
+    }
+  ]
+}

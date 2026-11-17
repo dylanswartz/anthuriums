@@ -1,0 +1,1 @@
+CREATE TABLE label_assertions(id TEXT PRIMARY KEY,label TEXT NOT NULL,expansion TEXT,entity_type TEXT NOT NULL,source_id TEXT NOT NULL REFERENCES sources(id),note TEXT NOT NULL,raw_json TEXT NOT NULL);

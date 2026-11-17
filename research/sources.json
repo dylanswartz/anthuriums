@@ -1,0 +1,43 @@
+[
+  {
+    "id": "wcvp16",
+    "url": "https://doi.org/10.34885/egs6-cp24",
+    "download": "https://sftp.kew.org/pub/data-repositories/WCVP/wcvp.zip",
+    "license": "CC BY 3.0",
+    "scope": "Taxonomy, synonyms, distribution text; no cross compatibility or sectional classification",
+    "attribution": "Govaerts, R.; Board of Trustees of the Royal Botanic Gardens, Kew. WCVP v16, June 4 2026.",
+    "notes": "Kew cannot warrant quality or accuracy; no endorsement or affiliation implied."
+  },
+  {
+    "id": "ias",
+    "url": "https://www.aroidcultivars.org/",
+    "search_url": "https://www.aroidcultivars.org/search-cultivars",
+    "license": "No general open reuse license verified",
+    "api": "No public API verified",
+    "ingestion": "Curated facts with citations. Robots fetch unavailable; no bulk crawl initiated. Check current robots and terms before ingestion. Do not copy images."
+  },
+  {
+    "id": "bliss2012",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3326669/",
+    "doi": "10.1093/aobpla/pls006",
+    "license": "CC BY-NC 3.0",
+    "scope": "Genome size and chromosome context, not a universal pairwise compatibility model",
+    "notes": "Genome size varied despite equal chromosome counts. Noncommercial license, do not assume commercial redistribution allowed."
+  },
+  {
+    "id": "sheffer1976",
+    "url": "https://journals.ashs.org/downloadpdf/journals/jashs/101/6/article-p705.pdf",
+    "title": "Cross Compatibility in the Genus Anthurium",
+    "authors": "R. D. Sheffer and H. Kamemoto",
+    "year": 1976,
+    "pages": "101(6):709\u2013713",
+    "access": "Publisher PDF returned 403; indexed abstract only. Do not seed pairwise results until table is obtained legitimately."
+  },
+  {
+    "id": "croat1983",
+    "url": "https://www.aroid.org/gallery/croat/0060308.pdf",
+    "title": "The Sectional Groupings of Anthurium (Araceae)",
+    "year": 1983,
+    "access": "Indexed but direct PDF returned 404. Historical source, not validated current classification."
+  }
+]

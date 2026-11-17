@@ -1,0 +1,8 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE IF NOT EXISTS sources(id TEXT PRIMARY KEY, title TEXT NOT NULL, url TEXT NOT NULL, citation TEXT NOT NULL, accessed TEXT NOT NULL, license TEXT NOT NULL DEFAULT 'See source terms');
+CREATE TABLE IF NOT EXISTS sections(id TEXT PRIMARY KEY,name TEXT NOT NULL,description TEXT NOT NULL,source_id TEXT REFERENCES sources(id),status TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS species(id TEXT PRIMARY KEY,name TEXT NOT NULL,author TEXT NOT NULL DEFAULT '',summary TEXT NOT NULL DEFAULT '',distribution TEXT NOT NULL DEFAULT '',section_id TEXT REFERENCES sections(id),section_note TEXT NOT NULL DEFAULT 'Section placement not curated');
+CREATE TABLE IF NOT EXISTS taxonomic_records(id TEXT PRIMARY KEY,species_id TEXT NOT NULL REFERENCES species(id),name TEXT NOT NULL,status TEXT NOT NULL,source_id TEXT NOT NULL REFERENCES sources(id),note TEXT NOT NULL DEFAULT '');
+CREATE TABLE IF NOT EXISTS crosses(id TEXT PRIMARY KEY,maternal_id TEXT REFERENCES species(id),paternal_id TEXT REFERENCES species(id),evidence_type TEXT NOT NULL,direction_known INTEGER NOT NULL DEFAULT 1,outcome TEXT NOT NULL,uncertainty TEXT NOT NULL,source_id TEXT NOT NULL REFERENCES sources(id),citation_detail TEXT NOT NULL DEFAULT '');
+CREATE TABLE IF NOT EXISTS observations(id INTEGER PRIMARY KEY AUTOINCREMENT,maternal_id TEXT NOT NULL REFERENCES species(id),paternal_id TEXT NOT NULL REFERENCES species(id),observed_on TEXT NOT NULL,stage TEXT NOT NULL,notes TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS metadata(key TEXT PRIMARY KEY,value TEXT NOT NULL);

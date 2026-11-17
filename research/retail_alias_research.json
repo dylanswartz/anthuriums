@@ -1,0 +1,50 @@
+{
+  "reviewed_at": "2026-11-17",
+  "scope": "Small source-respectful public research pass, not catalog ingestion or comprehensive survey. Facts paraphrased; no copied photos or descriptions.",
+  "identity_rules": [
+    "Store source label, seller, breeder, accession and generation separately. Trade shorthand is not a taxonomic synonym.",
+    "FSRL and RLFS are distinct ordered labels, not interchangeable aliases. Label order alone is not independently verified maternal/paternal direction.",
+    "A named cross describes potentially many genetically different seedlings, not one clone. A selfed offspring is not its parent's clone.",
+    "RC is ambiguous without provenance. Do not merge all Red Crystallinum stock with NSE, Tezula or DocBlock lines, or identify it automatically as pure crystallinum.",
+    "Retail pedigree statements are reports, not genetic verification. Do not infer fertility, success rates or compatibility probabilities."
+  ],
+  "sources": [
+    {"id":"vannini-guide","url":"https://www.exoticaesoterica.com/magazine/the-ultimate-guide-to-velvet-leaf-anthuriums","author":"Jay Vannini","kind":"first_person_breeder_article","date_note":"Living article includes 2021 updates; exact original publication year not verified.","rights":"No open reuse license verified. Link and curate concise facts only; no photographs or bulk text."},
+    {"id":"vannini-2026","url":"https://www.exoticaesoterica.com/magazine/that-old-black-magic","author":"Jay Vannini","kind":"first_person_breeder_article","date_note":"May 30; image captions and references identify 2026.","rights":"No open reuse license verified; photographs explicitly copyrighted."},
+    {"id":"nse-rc","url":"https://www.nsetropicals.com/product/anthurium-red-crystallinum-seedlings/","kind":"first_party_line_owner","rights":"https://www.nsetropicals.com/terms-of-use/ prohibits automated/systematic collection. Auto-ingestion disabled; no copied text/images."},
+    {"id":"carnivero-car0380","url":"https://www.carnivero.com/products/anthurium-magnificum-x-papillilaminum-fsxrl-car-0380","kind":"first_party_breeder","rights":"https://www.carnivero.com/pages/terms-and-policies section 12 prohibits crawl/scrape. Auto-ingestion disabled."},
+    {"id":"carnivero-car0280","url":"https://www.carnivero.com/collections/carnivero-exclusives/products/anthurium-antolakii-bvep-x-luxurians-car-0280","kind":"first_party_breeder","rights":"Same Carnivero restriction; no catalog pull."},
+    {"id":"plantplug-fsrl","url":"https://theplantpl.ug/products/anthurium-papillilaminum-fsrl-x-dress-carla-bvep","kind":"retailer_reporting_named_breeder","rights":"License/robots not verified; auto-ingestion not approved."}
+  ],
+  "aliases": [
+    {"label":"FS","expansion":"Fort Sherman","entity_type":"papillilaminum clone label","source":"vannini-2026"},
+    {"label":"RL","expansion":"Ralph Lynam","entity_type":"papillilaminum clone label","source":"vannini-2026"},
+    {"label":"FSRL","expansion":"Fort Sherman x Ralph Lynam","entity_type":"cross shorthand","source":"plantplug-fsrl"},
+    {"label":"RLFS","expansion":"Ralph Lynam x Fort Sherman","entity_type":"cross shorthand","source":"vannini-guide","note":"Keep reciprocal label distinct."},
+    {"label":"Dark Mama","variants":["Dark Moma","Dark Momma"],"entity_type":"hybrid name","source":"vannini-guide"},
+    {"label":"PanaMama","entity_type":"hybrid name","source":"vannini-guide"},
+    {"label":"NSE Red Crystallinum","entity_type":"breeder line","source":"nse-rc","note":"Reported Wonderboy descent; exact parental species not supplied."},
+    {"label":"BVEP","expansion":"Black Velvet Eastern Panama","entity_type":"historical horticultural placeholder","source":"carnivero-car0280","note":"Breeder maps its parent to antolakii. Do not authenticate every retail BVEP from this assertion alone."},
+    {"label":"CAR-0380","entity_type":"Carnivero cross identifier","source":"carnivero-car0380"},
+    {"label":"CAR-0280","entity_type":"Carnivero cross identifier","source":"carnivero-car0280"}
+  ],
+  "records": [
+    {"id":"vannini-fsrl","formula":"papillilaminum Fort Sherman x papillilaminum Ralph Lynam","source":"vannini-guide","outcome":"grown seedlings","direction":"ordered breeder formula; roles not explicitly stated","cross_type":"intraspecific"},
+    {"id":"vannini-rlfs","formula":"papillilaminum Ralph Lynam x papillilaminum Fort Sherman","source":"vannini-guide","outcome":"F1 seedling","direction":"ordered breeder formula; roles not explicitly stated","cross_type":"intraspecific"},
+    {"id":"vannini-rl-self","formula":"papillilaminum Ralph Lynam x self","source":"vannini-guide","outcome":"large seedlings","direction":"self","cross_type":"selfing"},
+    {"id":"vannini-dark-mama","formula":"warocqueanum x papillilaminum Fort Sherman","reciprocal_reported":true,"source":"vannini-guide","outcome":"nine-year-old plants pictured in 2013 from breeder's 2003 remake","direction":"both reciprocal crosses expressly identified","note":"No fertility result supplied."},
+    {"id":"vannini-panamama","formula":"dressleri x papillilaminum Fort Sherman","source":"vannini-guide","outcome":"two-year-old seed-grown plants photographed 2020","direction":"ordered breeder formula; roles not explicitly stated"},
+    {"id":"vannini-fsrl-flowering","formula":"papillilaminum Fort Sherman x papillilaminum Ralph Lynam","source":"vannini-2026","outcome":"flowering adult reported","direction":"ordered breeder formula; roles not explicitly stated","note":"Flowering is not proven fertility."},
+    {"id":"nse-wonderboy","entity":"NSE Red Crystallinum","ancestor":"Wonderboy hybrid","source":"nse-rc","relationship":"reported descent, not immediate parent pair","originator":"Tim Anderson, Palm Hammock Orchid Estate","outcome":"seedlings offered"},
+    {"id":"car0380","formula":"magnificum x papillilaminum (Fort Sherman x Ralph Lynam)","source":"carnivero-car0380","breeder":"Carnivero","outcome":"seed-grown plants","direction":"ordered formula only; no explicit seed/pollen fields"},
+    {"id":"car0280","seed_parent":"antolakii (formerly BVEP)","pollen_parent":"luxurians","source":"carnivero-car0280","breeder":"Carnivero","outcome":"seed-grown plants","direction":"explicit seed/pollen roles"},
+    {"id":"rooted-rarities-fsrl","seed_parent":"papillilaminum Fort Sherman x Ralph Lynam","pollen_parent":"(dressleri x carlablackiae) x antolakii / BVEP","source":"plantplug-fsrl","breeder":"Rooted Rarities","reporter":"The Plant Plug","outcome":"grown plant offered","direction":"explicit seed/pollen roles","evidence_level":"retailer attribution, not breeder-direct"}
+  ],
+  "remaining_gaps": [
+    "Obtain primary experimental Sheffer/Kamemoto 1976 and 1978 full texts before extracting successful/failed pair matrices.",
+    "Current sectional revisions need full legitimate primary access; legacy sections must remain dated.",
+    "Retail clone identity requires chain of custody; labels and photos alone cannot authenticate FS, RL or RC.",
+    "Many records omit pollen/seed roles, generation, population size, germination, adult survival and fertility.",
+    "No automated crawl permission established for Exotica Esoterica or Plant Plug; NSE and Carnivero expressly restrict it."
+  ]
+}

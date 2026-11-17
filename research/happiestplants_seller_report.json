@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "id": "happiestplants-bluepap-bvep-dorito",
+      "title": "Blue Pap × (BVEP × Dorito Portillae) seller-reported seedlings",
+      "url": "https://happiestplants.com/products/anthurium-papillilaminum-blue-x-bvep-x-dorito-portillae",
+      "published": null,
+      "event_date": null,
+      "retrieved": "2026-11-17",
+      "seller": "Happiest Plants",
+      "breeder_attribution": {
+        "name": "Eddy Pranoto",
+        "scope": "Seller attribution accompanying seeds acquired at a Bangkok show; not breeder-direct confirmation."
+      },
+      "access_level": "Public seller product description inspected; factual paraphrase only",
+      "maternal_label": "Blue Pap",
+      "paternal_label": "(BVEP × Dorito Portillae)",
+      "maternal_taxon": null,
+      "paternal_taxon": null,
+      "direction_known": 1,
+      "evidence_type": "Seller-attributed breeder report · unresolved compound identities",
+      "reported_endpoint": "seedling growth",
+      "identity_qualified": 0,
+      "graph_eligible": 0,
+      "functional_fertility_verified": false,
+      "pedigree_assertion": {
+        "direction_known": true,
+        "seed_parent": {
+          "label": "Blue Pap",
+          "identity_status": "unresolved trade identity"
+        },
+        "pollen_parent": {
+          "kind": "compound label",
+          "label": "(BVEP × Dorito Portillae)",
+          "direction_known": false,
+          "components": [
+            {
+              "label": "BVEP",
+              "source_alternative_label": "Antolakii",
+              "identity_status": "source wording only; synonymy and lineage unverified"
+            },
+            {
+              "label": "Dorito Portillae",
+              "identity_status": "unresolved label"
+            }
+          ]
+        }
+      },
+      "outcome": "Happiest Plants reports that seeds acquired from Eddy Pranoto at a Bangkok show grew into small seedlings, naming Blue Pap as mother and a BVEP × Dorito Portillae hybrid as pollen donor. This is seller-attributed breeder information, not breeder-direct confirmation.",
+      "uncertainty": "Only the outer seed/pollen direction is source-reported; internal roles in the entire pollen hybrid are unknown. Source wording BVEP/Antolakii is preserved without authenticating identity or synonymy. Blue Pap remains an unresolved trade identity, with no pure-species assignment. No direct Blue Pap × BVEP event, intermediate success, adult outcome, fertility or connection to a user specimen is inferred. Crossing dates are unknown. Excluded from the successful-cross graph because compound parent identities are unresolved."
+    }
+  ]
+}

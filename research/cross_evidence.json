@@ -1,0 +1,54 @@
+{
+  "retrieved": "2026-11-17",
+  "reuse": "Curated factual relationships only; no image or descriptive-text republication permission established.",
+  "limitations": [
+    "Not controlled crossing experiments or genetic verification.",
+    "Do not infer reciprocal success, universal compatibility, fertility, or success rates.",
+    "Missing reports are unknown, not incompatibility.",
+    "Cultivar registration status and parentage evidence confidence are distinct."
+  ],
+  "records": [
+    {
+      "id": "ias-medusa",
+      "cultivar": "Medusa",
+      "seed_parent": "Anthurium forgetii",
+      "pollen_parent": "Anthurium luxurians",
+      "direction": "explicit seed and pollen fields",
+      "source_seed_parent_verbatim": "Anthurium forgetti",
+      "normalization_note": "Registry misspells forgetti in structured field, narrative says forgetii; WCVP accepts forgetii. Preserve both.",
+      "source_url": "https://www.aroidcultivars.org/aroid-cultivars/anthurium/'medusa'",
+      "evidence_type": "registrar_record",
+      "outcome": "reported hybrid cultivar; asexually propagated",
+      "accepted": true,
+      "established": false,
+      "year": null
+    },
+    {
+      "id": "ias-smaug",
+      "cultivar": "Smaug",
+      "seed_parent": "Anthurium papillilaminum",
+      "pollen_parent": "Anthurium debile",
+      "direction": "explicit seed and pollen fields",
+      "source_url": "https://www.aroidcultivars.org/aroid-cultivars/anthurium/smaug",
+      "evidence_type": "registrar_record",
+      "outcome": "reported hybrid cultivar; asexually propagated",
+      "accepted": true,
+      "established": false,
+      "year": 2026
+    },
+    {
+      "id": "ias-amy",
+      "cultivar": "Amy",
+      "seed_parent": null,
+      "pollen_parent": null,
+      "direction": "unverified: structured fields blank",
+      "parentage_formula": "(Anthurium crystallinum x Anthurium magnificum) x (Anthurium magnificum x Anthurium nigrolaminum \"Gigi\")",
+      "source_url": "https://www.aroidcultivars.org/aroid-cultivars/anthurium/'amy'",
+      "evidence_type": "registrar_record",
+      "outcome": "reported complex hybrid cultivar; asexually propagated",
+      "accepted": true,
+      "established": false,
+      "year": null
+    }
+  ]
+}

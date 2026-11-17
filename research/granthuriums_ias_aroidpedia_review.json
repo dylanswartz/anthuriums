@@ -1,0 +1,74 @@
+{
+  "retrieved": "2026-11-17",
+  "source_reviews": [
+    {
+      "name": "International Aroid Society",
+      "url": "https://www.aroid.org/aroideana",
+      "role": "Primary society publications and registrar links",
+      "access": "Public issue summaries; current/all back-issue access advertised as membership benefit. No bypass.",
+      "license": "No blanket open reuse license verified",
+      "notes": "Uberlist is a dated genus-count resource, not complete accepted-species backbone or compatibility dataset. https://www.aroid.org/ueberlist"
+    },
+    {
+      "name": "Granthuriums",
+      "url": "https://granthuriums.com/policies/terms-of-service",
+      "role": "Firsthand breeder reports, not independently authenticated pedigrees",
+      "license": "All rights reserved; no open reuse grant verified",
+      "automated_ingestion": "DISABLED: section 12 prohibits spider/crawl/scrape. Seek permission before automated ingestion. Curated factual citations only."
+    },
+    {
+      "name": "Aroidpedia",
+      "url": "https://www.aroidpedia.com/editorial-policy",
+      "role": "Independent secondary synthesis by Robert Wainblat, AI-assisted with stated editor review; NOT IAS or cultivar registrar",
+      "license": "CC BY-NC 4.0 for text; photographs excluded",
+      "usage": "Discovery pointers to primary sources. No commercial text reuse under this license; no automatic borrowing of image permissions."
+    }
+  ],
+  "records": [
+    {
+      "id": "aroidl-veitchii-tilaranense-2000",
+      "seed_parent": "Anthurium veitchii",
+      "pollen_parent": "Anthurium tilaranense",
+      "source_pollen_label": "A. tilarenense",
+      "normalization_note": "Source spelling retained alongside WCVP accepted spelling tilaranense.",
+      "source_url": "https://www.hort.net/lists/aroid-l/may00/msg00051.html",
+      "source_date": "2000-05-08",
+      "author": "Neil (message signature)",
+      "evidence_type": "grower_firsthand_correspondence",
+      "attempts_reported": 1,
+      "outcome": "seed set and germination reported",
+      "adult_viability": "unreported",
+      "fertility": "unreported",
+      "direction": "explicit maternal plant and pollen donor",
+      "discovery_source": "https://www.aroidpedia.com/anthurium-reproduction"
+    },
+    {
+      "id": "granthuriums-rc-heinz",
+      "seed_parent": "Red Crystal Premium (Fontanimals; reportedly originally Doc Block grower)",
+      "pollen_parent": "Heinz",
+      "source_url": "https://granthuriums.com/products/anthurium-red-crystallinum-x-heinz-germinated-seed",
+      "evidence_type": "breeder_firsthand_report",
+      "outcome": "3\u20134-leaf seedlings reported",
+      "direction": "seed parent explicitly named; other parent from named two-parent cross",
+      "identity_note": "Trade/accession labels; not resolved to pure species. Image alt text also says Chocolate Crystallinum, so do not use photo labels as provenance."
+    },
+    {
+      "id": "granthuriums-dressleri-linecross",
+      "seed_parent": "RG dressleri (F2 dark clone x Black dress) holdback",
+      "pollen_parent": "RG dressleri F1B (Jay Vannini line)",
+      "source_url": "https://granthuriums.com/products/rg-dressleri-f2-x-black-select-x-f1b-germinated-seed",
+      "evidence_type": "breeder_firsthand_report",
+      "outcome": "germinated seeds and small seedlings reported",
+      "direction": "both parent roles explicit",
+      "cross_type": "reported intraspecific line breeding, not interspecific hybrid"
+    }
+  ],
+  "uncertain_records": [
+    {
+      "label": "Kunayalense PM5 x (BVEP RA1 OR Sp Nov DF)",
+      "url": "https://granthuriums.com/products/anthurium-kunayalense-pm5-x-bvep-ra1-or-sp-nov-df-small-seedlings",
+      "status": "ambiguous mixed-pollen batch; not two confirmed crosses",
+      "note": "Narrative describes successive pollen applications from different donors. It calls seed parent unconfirmed despite narrative indicating pollen uncertainty; preserve contradiction and require review."
+    }
+  ]
+}

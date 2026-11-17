@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "published": null,
+      "event_date": null,
+      "retrieved": "2026-11-17",
+      "seller": "DannyGardner",
+      "access_level": "Public seller listing inspected; factual paraphrase only",
+      "maternal_taxon": null,
+      "paternal_taxon": null,
+      "direction_known": 1,
+      "evidence_type": "Public seller report · unresolved parent identities",
+      "identity_qualified": 0,
+      "graph_eligible": 0,
+      "functional_fertility_verified": false,
+      "id": "palmstreet-dannygardner-besseae-aff-felix",
+      "title": "Besseae aff. × (FSRL × BVEP 'Felix') sprout",
+      "url": "https://palmstreet.app/product/9Dqkhuap4sf8OKEzFtSts/anthurium-besseae-aff-x-fsrl-bvep-sprout",
+      "maternal_label": "Besseae aff.",
+      "paternal_label": "FSRL × BVEP 'Felix'",
+      "reported_endpoint": "newly sprouted seedling",
+      "parent_origin_attribution": {
+        "pollen_parent": "Justin Jones"
+      },
+      "outcome": "Public seller DannyGardner reports a newly sprouted seedling with Besseae aff. as mother and FSRL × BVEP 'Felix' as pollen parent, attributing the pollen parent to Justin Jones.",
+      "uncertainty": "Source-qualified roles only; event date unknown. Besseae aff. retains uncertain affinity and is not assigned to pure besseae. The whole pollen-parent label is one unresolved compound parent; FSRL, BVEP and Felix identities are not authenticated. Seller and parent-origin attribution are separate. No inferred species edges, adult phenotype, genetic verification, reciprocal result or fertility. Labels do not identify a personal plant."
+    },
+    {
+      "published": null,
+      "event_date": null,
+      "retrieved": "2026-11-17",
+      "seller": "DannyGardner",
+      "access_level": "Public seller listing inspected; factual paraphrase only",
+      "maternal_taxon": null,
+      "paternal_taxon": null,
+      "direction_known": 1,
+      "evidence_type": "Public seller report · unresolved parent identities",
+      "identity_qualified": 0,
+      "graph_eligible": 0,
+      "functional_fertility_verified": false,
+      "id": "palmstreet-dannygardner-mrworldwide-rlself",
+      "title": "Mr.Worldwide × Ralph Lynam self germinated seed",
+      "url": "https://palmstreet.app/product/neTixnDTjXUOHsdoErJkA/anthurium-mrworldwide-x-rl-self-papillilaminum-wide-sinus-germinated-seed",
+      "maternal_label": "Mr.Worldwide",
+      "paternal_label": "papillilaminum Ralph Lynam self",
+      "reported_endpoint": "germination",
+      "parent_origin_attribution": {
+        "seed_parent": "Teo",
+        "seed_parent_source": "Yolanda Picklesauce",
+        "pollen_parent": "Jay Vannini"
+      },
+      "inspiration_mention": {
+        "attributed_to": "Seth Schweers",
+        "status": "Seller distinguishes this event from a similarly labeled inspirational cross; mention only, not an independently observed event."
+      },
+      "outcome": "Public seller DannyGardner reports germinated seed, naming Mr.Worldwide as seed parent (attributed to Teo, sourced from Yolanda Picklesauce) and papillilaminum Ralph Lynam self as pollen parent (attributed to Jay Vannini).",
+      "uncertainty": "Source-qualified roles only; event date unknown. Trade/accession labels and selfed-line identity are not authenticated and are not assigned to species. The seller distinguishes this event from Seth Schweers's similarly labeled inspirational cross; that mention supplies no additional observed event or independent corroboration. Germination does not establish a grown seedling, adult phenotype or fertility. No genetic verification, reciprocal inference or personal-plant identification."
+    }
+  ]
+}

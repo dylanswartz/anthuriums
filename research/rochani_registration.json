@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "id": "indonesia-rochani-2023",
+      "title": "Rochani · Indonesian breeder-variety registration",
+      "url": "https://ppvtpp.setjen.pertanian.go.id/publics/get-media/static/berita_resmi_pdf/1695397992/berita-resmi-pendaftaran-varietas-hasil-pemuliaan-triwulan-ii-tahun-2023/get-file/berita_resmi_pdf_2f0f5d2b-f0f1-4c71-9ba8-bc1eac20c672.pdf",
+      "published": null,
+      "registration_date": "2023-05-31",
+      "registration_id": "1028/PVHP/2023",
+      "publication_id": "140/BR/PVHP/05/2023",
+      "event_date": null,
+      "retrieved": "2026-11-17",
+      "access_level": "Primary government-published breeder registration inspected, printed pages 25–26 (PDF zero-index 28–29); factual paraphrase only",
+      "citation_detail": "Indonesian Agriculture 2023 breeder-variety registration bulletin, printed pp. 25–26 (PDF zero-index pages 28–29); registration 1028/PVHP/2023 dated 31 May 2023; publication 140/BR/PVHP/05/2023.",
+      "maternal_label": "Anthurium veitchii GCI 002",
+      "paternal_label": "Anthurium forgetii",
+      "maternal_taxon": "Anthurium veitchii",
+      "paternal_taxon": "Anthurium forgetii",
+      "maternal_accession_label": "GCI 002",
+      "direction_known": 1,
+      "evidence_type": "Registrar record · breeder report",
+      "claim_subject_type": "registered-variety-report",
+      "claim_evidence_type": "registrar-record",
+      "reported_endpoint": "flowering",
+      "identity_qualified": 1,
+      "graph_eligible": 1,
+      "identity_basis": "Source-reported species and accession, aligned to accepted WCVP species for retrieval; not DNA verified.",
+      "functional_fertility_verified": false,
+      "germination_rate": null,
+      "fertility": null,
+      "reciprocal_outcome": null,
+      "outcome": "Rochani is described in an official Indonesian registration bulletin as originating from veitchii GCI 002 female × forgetii male. Plant and inflorescence descriptions support a reported grown/flowering plant endpoint.",
+      "uncertainty": "Primary registry-published breeder parentage, not DNA confirmation or independent controlled replication. GCI 002 is the reported maternal accession; accepted species mapping is for retrieval and does not authenticate other accessions or user specimens. Crossing date, germination rate, functional fertility and reciprocal outcome are not established. Flowering is not functional fertility. Graph use is limited to attributed reported-outcome analogy, consistently with other explicit flowering reports; no probability or compatibility guarantee."
+    }
+  ]
+}

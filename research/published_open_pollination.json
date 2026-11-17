@@ -1,0 +1,35 @@
+{
+  "id": "kamemoto-sheffer-scherzerianum-wendlingeri",
+  "report_family_id": "kamemoto-sheffer-1974-open-pollination",
+  "reviewed_at": "2026-11-17",
+  "access_level": "primary-source search index/abstract, full text not inspected",
+  "pollination_method": "open pollination",
+  "seed_parent": "Anthurium scherzerianum",
+  "seed_role_status": "documented in indexed 1982 abstract",
+  "attributed_pollen_parent": "Anthurium wendlingeri",
+  "pollen_role_status": "attributed; uncontrolled and not genetically confirmed",
+  "original_spelling": "Anthurium wendlingerii",
+  "spelling_alignment": "Publication spelling aligned to accepted WCVP v16 Anthurium wendlingeri for retrieval only; not added as a verified nomenclatural synonym.",
+  "reported_offspring": "Parental-type and reported hybrid offspring from seeds collected in 1974.",
+  "fertility_claim": "1978 primary search-index excerpt reports good F1 fertility and potential later generations; method and functional fertility unverified.",
+  "functional_fertility_verified": false,
+  "graph_eligible": false,
+  "independence": "One linked report family, not two independent experiments.",
+  "sources": [
+    {
+      "id": "kamemoto-sheffer-1978",
+      "title": "A New Species Hybrid, Anthurium scherzerianum × Anthurium wendlingerii",
+      "url": "https://doi.org/10.21273/HORTSCI.13.2.177",
+      "citation": "Kamemoto & Sheffer (1978). HortScience 13(2):177–179.",
+      "access_note": "Primary indexed excerpt only; publisher PDF returned HTTP 403. Numerical methods and tables not inspected.",
+      "pdf_url": "https://journals.ashs.org/downloadpdf/view/journals/hortsci/13/2/article-p179.pdf"
+    },
+    {
+      "id": "kamemoto-sheffer-1982",
+      "title": "Anthurium wendlingeri × Anthurium scherzerianum",
+      "url": "https://www.aroidsociety.org/aroideana/search/scripts/flex_index.php?genus=Anthurium",
+      "citation": "Kamemoto & Sheffer (1982). Aroideana 5(4):114–115.",
+      "access_note": "Primary indexed abstract only; direct index returned HTTP 502. Title order does not establish seed/pollen roles."
+    }
+  ]
+}

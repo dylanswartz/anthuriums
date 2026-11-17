@@ -1,0 +1,85 @@
+{
+  "retrieved": "2026-11-17",
+  "rights": {
+    "license": "No open content/photo reuse license established",
+    "ingestion": "Curated paraphrased factual metadata and links only; no photo or article republication. No bulk crawling performed.",
+    "robots": "Web tool could not retrieve either robots.txt; this is not permission to crawl."
+  },
+  "breeder_identity_notes": [
+    {
+      "breeder": "Silver Krome Gardens",
+      "url": "https://silverkrome.com/",
+      "note": "Nursery lists a mixed tissue-culture, seed and cutting production model. Product ownership does not establish originator or parentage."
+    },
+    {
+      "label": "Ace of Spades (Tezula Dark Form)",
+      "url": "https://tezulaplants.com/blogs/news/anthurium-ace-of-spades-tezula-dark-form",
+      "date": "2025-03-25",
+      "note": "Tezula credits Silver Krome naming/popularization and describes Dark Form as its color-selection/grading practice, not creation of Ace of Spades. Treat as selection/line label, not automatically one clone or a new cross."
+    },
+    {
+      "label": "radicans x luxurians",
+      "url": "https://silverkrome.com/home-2/anthurium/",
+      "note": "Listed by SKG; inventory evidence only, not proof SKG made the cross or explicit seed/pollen direction."
+    },
+    {
+      "label": "Pink Lemonade",
+      "url": "https://www.aroidcultivars.org/aroid-cultivars/anthurium/anth.-pink-lemonade",
+      "note": "Existing IAS record identifies Bill Rotolante and SKG Silver seed x SKG Grey pollen; do not replace named parent lines with pure species."
+    }
+  ],
+  "records": [
+    {
+      "id": "tezula-dreamweaver-necromancer",
+      "seed_parent": "Tezula Dreamweaver",
+      "pollen_parent": "Tezula Necromancer",
+      "direction": "breeder explicitly reports both reciprocal combinations",
+      "source_url": "https://tezulaplants.com/blogs/news/anthurium-red-crystallinum-tezula-dreamweaver-x-tezula-necromancer",
+      "source_date": "2025-03-25",
+      "cross_year": 2021,
+      "first_sale_date": "2022-08-21",
+      "evidence_type": "breeder_first_party_report",
+      "outcome": "grown seedlings reported for reciprocal breeding project; per-direction counts not separated",
+      "counts": null,
+      "fertility": "not reported"
+    },
+    {
+      "id": "tezula-necromancer-dreamweaver",
+      "seed_parent": "Tezula Necromancer",
+      "pollen_parent": "Tezula Dreamweaver",
+      "direction": "reciprocal explicitly reported, not inferred",
+      "source_url": "https://tezulaplants.com/blogs/news/anthurium-red-crystallinum-tezula-dreamweaver-x-tezula-necromancer",
+      "source_date": "2025-03-25",
+      "cross_year": 2021,
+      "evidence_type": "breeder_first_party_report",
+      "outcome": "grown seedlings reported for reciprocal breeding project; per-direction counts not separated",
+      "counts": null,
+      "fertility": "not reported"
+    },
+    {
+      "id": "tezula-necromancer-self",
+      "seed_parent": "Tezula Necromancer",
+      "pollen_parent": "Tezula Necromancer",
+      "direction": "explicit selfing",
+      "source_url": "https://tezulaplants.com/blogs/news/anthurium-red-crystallinum-tezula-dreamweaver-x-tezula-necromancer",
+      "source_date": "2025-03-25",
+      "evidence_type": "breeder_first_party_report",
+      "outcome": "germination and grown offspring reported; poor germination qualitatively described",
+      "germination_rate": null,
+      "named_selection": "Tezula Necromancer\u2019s Daughter",
+      "identity_warning": "Selfed offspring is not a clone of the parent."
+    },
+    {
+      "id": "carnivero-car0354",
+      "seed_parent": "(Red Crystallinum x magnificum), individual acquired from Tezula Plants",
+      "pollen_parent": "Anthurium debilis (source label)",
+      "direction": "explicit female and male descriptions",
+      "source_url": "https://www.carnivero.com/products/anthurium-red-crystallinum-x-magnificum-x-debilis-car-0354",
+      "evidence_type": "breeder_first_party_report",
+      "outcome": "seed-grown juvenile plants reported",
+      "breeder": "Carnivero",
+      "parent_supplier": "Tezula Plants",
+      "identity_warning": "Do not silently normalize debilis to debile or label every Tezula RC as this accession."
+    }
+  ]
+}

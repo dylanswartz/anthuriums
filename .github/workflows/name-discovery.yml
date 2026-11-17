@@ -1,0 +1,22 @@
+name: Stage permitted-source name discovery
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 7 * * 1'
+permissions:
+  contents: read
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/discover_names.py --source-config config/discovery-sources.json --network
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pending-name-discovery
+          path: data/discovery/
+          retention-days: 90

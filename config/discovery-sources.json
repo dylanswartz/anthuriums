@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "max_pages_per_run": 5,
+  "max_bytes_per_page": 500000,
+  "sources": [],
+  "configuration_notes": [
+    "Add only exact HTTPS pages whose current terms permit automated factual-name extraction.",
+    "Each source requires id, url, terms_url, terms_reviewed=true, permission_note and format=html_names or json_names.",
+    "An example source shape is documented in DISCOVERY.md; no breeder is enabled by default.",
+    "No recursive crawling, images, descriptions, popularity ranking or automatic trusted-data promotion.",
+    "Granthuriums, NSE Tropicals, Carnivero and their subdomains are prohibited for automated requests. Local factual citation imports remain allowed."
+  ],
+  "min_interval_seconds": 5
+}

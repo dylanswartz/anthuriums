@@ -1,0 +1,1 @@
+{"name":"anthurium-atlas","private":true,"scripts":{"dev":"python3 app.py --port 3000","test":"node --test tests/frontend.test.js"}}

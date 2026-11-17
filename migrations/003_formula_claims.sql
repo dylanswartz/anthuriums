@@ -1,0 +1,2 @@
+CREATE TABLE nomenclatural_claims(id TEXT PRIMARY KEY,accepted_name_group TEXT NOT NULL,name TEXT NOT NULL,status TEXT NOT NULL,formula_verbatim TEXT NOT NULL,direction TEXT NOT NULL DEFAULT 'unknown',source_id TEXT NOT NULL REFERENCES sources(id),publication TEXT NOT NULL,viability_verified INTEGER NOT NULL DEFAULT 0 CHECK(viability_verified=0));
+CREATE INDEX nomenclature_group ON nomenclatural_claims(accepted_name_group);

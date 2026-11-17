@@ -1,0 +1,61 @@
+{
+  "records": [
+    {
+      "id": "plantess-nested-pedigree-vegetative-clone",
+      "title": "(Clarinervium × Papillilaminum) × (RVDP × Clarinervium) clone listing",
+      "url": "https://plantsbytess.com/products/anthurium-clarinervium-papillilaminum-rvdp-clarinervium-variegated-clone",
+      "published": null,
+      "event_date": null,
+      "retrieved": "2026-11-17",
+      "seller": "Plant.ess",
+      "access_level": "Public seller product page inspected; factual paraphrase only",
+      "maternal_label": "(Clarinervium × Papillilaminum)",
+      "paternal_label": "(RVDP × Clarinervium)",
+      "maternal_taxon": null,
+      "paternal_taxon": null,
+      "direction_known": 0,
+      "evidence_type": "Seller pedigree claim · vegetative clone",
+      "claim_subject_type": "pedigree-claim",
+      "claim_evidence_type": "unknown",
+      "reported_endpoint": "rooted vegetative clone listed",
+      "propagation_method": "vegetative",
+      "seed_grown": false,
+      "identity_qualified": 0,
+      "graph_eligible": 0,
+      "functional_fertility_verified": false,
+      "source_specific_expansions": [
+        {
+          "label": "RVDP",
+          "expansion": "Red Vein Dark Phoenix",
+          "scope": "This seller listing only; lineage not authenticated; not a global alias or personal-specimen match."
+        }
+      ],
+      "pedigree_assertion": {
+        "kind": "seller-attributed formula",
+        "direction_known": false,
+        "parents": [
+          {
+            "kind": "compound label",
+            "label": "(Clarinervium × Papillilaminum)",
+            "direction_known": false,
+            "components": [
+              "Clarinervium",
+              "Papillilaminum"
+            ]
+          },
+          {
+            "kind": "compound label",
+            "label": "(RVDP × Clarinervium)",
+            "direction_known": false,
+            "components": [
+              "RVDP",
+              "Clarinervium"
+            ]
+          }
+        ]
+      },
+      "outcome": "Plant.ess lists one rooted, one-leaf vegetatively propagated clone under a nested pedigree label; the listing explicitly describes it as not seed-grown. This is a seller pedigree assertion, not an observed sexual-cross or seedling outcome.",
+      "uncertainty": "Both compound parents remain intact. Seed/pollen roles at every nesting level and crossing dates are unknown despite formula order. RVDP is expanded by this source as Red Vein Dark Phoenix without authenticated lineage. No intermediate clarinervium × papillilaminum success, pure-species edges, user-specimen identity, genotype/phenotype causation, variegation inheritance or fertility is inferred. Excluded from the successful-cross inference graph."
+    }
+  ]
+}
