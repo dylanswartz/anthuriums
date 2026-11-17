@@ -36,7 +36,7 @@ Use `python3 scripts/discover_names.py --source-config config/discovery-sources.
 
 ## Schedule and review
 
-`.github/workflows/name-discovery.yml` defines Mondays at **07:43 UTC**, plus manual dispatch. This schedule has not run or been activated locally. It needs the repository default branch and Actions enabled. With the shipped configuration, it stages a disabled/no-requests receipt. It will not discover anything until an owner configures reviewed, permitted sources. The workflow is read-only and uploads pending artifacts; it never commits, pushes or promotes candidates.
+`.github/workflows/name-discovery.yml` defines Mondays at **07:43 UTC**, plus manual dispatch. The workflow and schedule trigger are now published on the repository default branch. Execution requires GitHub Actions enabled; no completed scheduled run has been verified. With the shipped configuration, it stages a disabled/no-requests receipt. It will not discover anything until an owner configures reviewed, permitted sources. The workflow is read-only and uploads pending artifacts; it never commits, pushes or promotes candidates.
 
 Review candidate identity, source provenance, actual demand/popularity evidence (if any), and any scientific claims separately. A candidate can be rejected or researched further without modifying WCVP. Explicitly curated evidence updates use the separate local import process and source-specific rights review described in README.
 

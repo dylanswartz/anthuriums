@@ -40,7 +40,7 @@ The importer is local-only, transactional and merge-only. It rejects unexpected 
 
 ## Scheduled WCVP refresh
 
-`.github/workflows/wcvp-refresh.yml` defines a monthly run at **06:19 UTC on the first day of each month**, plus manual dispatch. It downloads only the official configured WCVP bulk ZIP, checks robots (404/410 means no published policy; explicit disallow and other errors fail closed), refuses redirects/unapproved sources, bounds download/decompression sizes, validates names and coverage, and publishes a checksum-addressed **candidate artifact** with an additions/changes/removals report. It does not commit, push, deploy or overwrite the reviewed database. The schedule definition has not been run or activated by this local build; GitHub schedules require the workflow on the repository's default branch with Actions enabled.
+`.github/workflows/wcvp-refresh.yml` defines a monthly run at **06:19 UTC on the first day of each month**, plus manual dispatch. It downloads only the official configured WCVP bulk ZIP, checks robots (404/410 means no published policy; explicit disallow and other errors fail closed), refuses redirects/unapproved sources, bounds download/decompression sizes, validates names and coverage, and publishes a checksum-addressed **candidate artifact** with an additions/changes/removals report. It does not commit, push, deploy or overwrite the reviewed database. The workflow is now published on the repository’s default branch with its schedule trigger defined. Execution depends on GitHub Actions being enabled; no completed scheduled run has been verified.
 
 ```sh
 # Offline validation / staging, no network:
@@ -55,7 +55,7 @@ Local cron alternative (after reviewing current source terms): `19 6 1 * * cd /a
 
 ## Grower-source name discovery
 
-See `DISCOVERY.md` for the separate staged discovery workflow. It accepts local factual name candidates or explicitly configured permitted HTTPS pages, performs exact WCVP name resolution, and retains every result as pending. It does not invent popularity rankings or automatically promote taxonomy or crossing claims. The shipped source allowlist is empty and disabled. `.github/workflows/name-discovery.yml` defines a Monday 07:43 UTC run, but no scheduled run has occurred or been activated in this local build.
+See `DISCOVERY.md` for the separate staged discovery workflow. It accepts local factual name candidates or explicitly configured permitted HTTPS pages, performs exact WCVP name resolution, and retains every result as pending. It does not invent popularity rankings or automatically promote taxonomy or crossing claims. The shipped source allowlist is empty and disabled. `.github/workflows/name-discovery.yml` defines a Monday 07:43 UTC run, and is now published on the default branch. No completed scheduled run has been verified; execution depends on GitHub Actions being enabled.
 
 ## Research model operations (developer foundation)
 
@@ -83,7 +83,7 @@ Node 18+ is required only for the frontend unit tests. See `QA.md` for browser c
 
 ## Collector-focused coverage and inference
 
-The planner highlights curated collector topics: papillilaminum, Blue Pap, FS/RL/FSRL/RLFS, NSE Red Crystallinum and Tezula lines. These are navigational topics, not a measured popularity ranking. Ten source-specific label assertions preserve separate labels and provenance; they never authenticate an accession or become taxonomic synonyms. Six additional cited seedling/flowering/retailer records bring the live report count to 16, plus 22 historical formula groups. Blue Pap remains unresolved because no authenticated identity/cross record was curated.
+The planner highlights curated collector topics: papillilaminum, Blue Pap, FS/RL/FSRL/RLFS, NSE Red Crystallinum and Tezula lines. These are navigational topics, not a measured popularity ranking. Ten source-specific label assertions preserve separate labels and provenance; they never authenticate an accession or become taxonomic synonyms. The current corpus contains 24 report/claim families plus 22 historical formula groups. Blue Pap remains an unresolved trade identity, but the attributed Happiest Plants report records Blue Pap as seed parent and the intact BVEP × Dorito Portillae hybrid as pollen parent. That seller-reported nested event does not authenticate identity or establish a direct Blue Pap × BVEP cross; it remains excluded from the inference graph.
 
 Pair assessment follows the researcher-authored cited rules in `research/inference_rules.md`. It returns a structured tier, evidence motifs, selected endpoint, gaps, source origins and next check. This release uses documented direct outcome, exploratory inferred trial, or insufficient basis; it does not award “promising” or calculate probabilities. Negative/role constraints can coexist with a tier. Source rows are not independent trials. Separate future hypothesis/fertility tables keep predictions apart from observations. Published numerical crossing tables were not imported from OCR; accession-level page verification remains necessary.
 
@@ -115,3 +115,8 @@ The [Happiest Plants description](https://happiestplants.com/products/anthurium-
 ### Rochani registration
 
 `research/rochani_registration.json` cites the official Indonesian Agriculture 2023 bulletin, printed pages 25–26 (PDF zero-index 28–29): registration **1028/PVHP/2023**, dated **31 May 2023**, publication **140/BR/PVHP/05/2023**. Rochani's origin is reported as **veitchii GCI 002 female × forgetii male**. Plant and inflorescence descriptions support a reported grown/flowering endpoint. Species resolve to WCVP for retrieval, while the maternal accession and source-qualified identity remain explicit. Consistent with other explicit flowering reports, it may support traceable exploratory analogies; it does not authenticate other accessions, demonstrate independent controlled replication, establish DNA parentage, or imply germination rates, functional fertility or reciprocal success. Only factual paraphrases and the source link are included, not the PDF or its images.
+
+
+### Repository publication status
+
+The source repository is published at [dylanswartz/anthuriums](https://github.com/dylanswartz/anthuriums). The initial published `main` commit `e61cf7b745a92be0e0992b2490dd4469003ae117` has the same tree (`3b6dea08d259e95a39e01e9ca18164c6588fe946`) as local release `5beb8ee3dabe6926b2d4ba11cf324c6f36743c33`. Publishing source code does not deploy or host the application. The documented local run command remains the way to run it. Both scheduled workflow definitions are on the default branch; no completed run has been verified, and candidate artifacts still require review before promotion.
